@@ -123,6 +123,12 @@ body {
 /* Profile Section */
 .profile-container {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-content {
+    display: flex;
     flex-wrap: wrap;
     gap: 40px;
     align-items: flex-start;
@@ -160,33 +166,15 @@ body {
     min-width: 300px;
 }
 
-.profile-text h1 {
+.profile-container h1 {
     font-size: 2.2rem;
     margin-bottom: 10px;
     color: var(--primary-color);
 }
 
-.profile-text h2 {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-    color: var(--dark-gray);
-    font-weight: normal;
-}
-
 .profile-text p {
     margin-bottom: 15px;
     line-height: 1.7;
-}
-
-.research-interests {
-    columns: 2;
-    column-gap: 30px;
-    margin: 20px 0;
-}
-
-.research-interests li {
-    margin-bottom: 8px;
-    break-inside: avoid;
 }
 
 /* Research Page Styles */
