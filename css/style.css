@@ -469,7 +469,7 @@ footer {
 }
 
 .language-toggle .btn.active {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: white;
 }
 
