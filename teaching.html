@@ -6,6 +6,72 @@
     <title>Haoyu Gao - Teaching & Services</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        .teaching-level {
+            margin-bottom: 30px;
+        }
+        .level-title {
+            font-size: 20px;
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+        .course-item {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .course-name {
+            font-weight: 600;
+            color: #34495e;
+        }
+        .course-period {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .services-category {
+            margin-bottom: 30px;
+        }
+        .category-title {
+            font-size: 20px;
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+        .service-item {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .service-name {
+            font-weight: 600;
+            color: #34495e;
+        }
+        .service-position {
+            color: #16a085;
+        }
+        .service-period {
+            color: #7f8c8d;
+            font-style: italic;
+            float: right;
+        }
+        @media (max-width: 768px) {
+            .service-period {
+                float: none;
+                display: block;
+                margin-top: 5px;
+            }
+        }
+    </style>
+
 </head>
 <body>
     <header id="main-header">
@@ -26,61 +92,118 @@
                         </div>
                     </li>
                     <li><a href="teaching.html" class="active">Teaching & Services</a></li>
-                    <li><a href="presentations.html">Presentations</a></li>
+                    <!-- <li><a href="presentations.html">Presentations</a></li> -->
                     <li><a href="awards.html">Awards & Grants</a></li>
-                    <li><a href="cv.html">CV</a></li>
+                    <!-- <li><a href="cv.html">CV</a></li> -->
                 </ul>
             </nav>
         </div>
     </header>
-    <!--
-    <main class="main-container">
-        <section class="teaching-section">
-            <h2>Teaching</h2>
-            
-            <article class="course">
-                <h3>Advanced Corporate Finance</h3>
-                <p class="meta">PhD Course | Renmin University | Spring 2023</p>
-                <p>This course covers advanced topics in corporate finance, including capital structure, payout policy, corporate governance, and mergers & acquisitions.</p>
-                <!--
-                <div class="course-links">
-                    <a href="#" class="btn"><i class="fas fa-syllabus"></i> Syllabus</a>
-                    <a href="#" class="btn"><i class="fas fa-chalkboard"></i> Lecture Notes</a>
-                </div>
-                
-            </article>
-            
-            <article class="course">
-                <h3>Financial Risk Management</h3>
-                <p class="meta">MBA Course | Renmin University | Fall 2022</p>
-                <p>This course introduces students to the principles and practices of financial risk management, including market risk, credit risk, and operational risk.</p>
-            </article>
-        </section>
 
-        <section class="services-section">
-            <h2>Academic Services</h2>
-            
-            <article>
-                <h3>Journal Referee</h3>
-                <ul>
-                    <li>Journal of Finance</li>
-                    <li>Review of Financial Studies</li>
-                    <li>Journal of Financial Economics</li>
-                    <li>Management Science</li>
-                    <li>Review of Finance</li>
-                </ul>
-            </article>
-            
-            <article>
-                <h3>Conference Organization</h3>
-                <ul>
-                    <li>Program Committee, China International Conference in Finance (CICF), 2022</li>
-                    <li>Organizer, Renmin University Finance Workshop Series, 2021-present</li>
-                </ul>
-            </article>
-        </section>
-    </main>
--->
+    <div class="content-section">
+        <h2 class="section-title">Teaching</h2>
+        
+        <div class="teaching-level">
+            <h3 class="level-title">Ph.D./M.Phil of Finance</h3>
+            <div class="course-item">
+                <span class="course-name">Academic Writing in Economics and Finance</span>
+                <span class="course-period">Spring 2020 – Present</span>
+            </div>
+        </div>
+        
+        <div class="teaching-level">
+            <h3 class="level-title">Master of Finance</h3>
+            <div class="course-item">
+                <span class="course-name">Financial Institutions and Regulations</span>
+                <span class="course-period">Spring 2022 – Present</span>
+            </div>
+            <div class="course-item">
+                <span class="course-name">Financial Risk Management</span>
+                <span class="course-period">Fall 2021 – Present</span>
+            </div>
+            <div class="course-item">
+                <span class="course-name">Alternative Investments, Renmin-Queens Master of Finance</span>
+            </div>
+        </div>
+        
+        <div class="teaching-level">
+            <h3 class="level-title">Undergraduate of Finance</h3>
+            <div class="course-item">
+                <span class="course-name">Application of ABCD Technology in Finance</span>
+                <span class="course-period">Spring 2024 – Present</span>
+            </div>
+            <div class="course-item">
+                <span class="course-name">Freshmen Seminars</span>
+                <span class="course-period">Fall 2023 – Present</span>
+            </div>
+            <div class="course-item">
+                <span class="course-name">Commercial Bank Business and Management</span>
+                <span class="course-period">Fall 2021 – Present</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">Services</h2>
+        
+        <div class="services-category">
+            <h3 class="category-title">Editorial Appointments</h3>
+            <div class="service-item">
+                <span class="service-name">International Journal of Finance</span> – 
+                <span class="service-position">Associate Editor</span> 
+                <span class="service-period">Since 2024</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">Journal of Systems Science and Mathematics | 系统科学与数学</span> – 
+                <span class="service-position">Associate Editor</span> 
+                <span class="service-period">Since 2024</span>
+            </div>
+        </div>
+        
+        <div class="services-category">
+            <h3 class="category-title">Conference Appointments</h3>
+            <div class="service-item">
+                <span class="service-name">China Financial Research Conference (CFRC)</span> – 
+                <span class="service-position">Program Committee Member</span> 
+                <span class="service-period">Since 2025</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">China Banking & Corporate Finance Conference (CBCF)</span> – 
+                <span class="service-position">Program Committee Co-Chair</span> 
+                <span class="service-period">Since 2024</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">CFRN Young Financial Scholars Annual Conference (CFRN)</span> – 
+                <span class="service-position">Program Committee Co-Chair</span> 
+                <span class="service-period">Since 2023</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">China Fintech Research Conference (CFTRC)</span> – 
+                <span class="service-position">Program Committee Member</span> 
+                <span class="service-period">Since 2019</span>
+            </div>
+        </div>
+        
+        <div class="services-category">
+            <h3 class="category-title">Other Appointments</h3>
+            <div class="service-item">
+                <span class="service-name">Post-Doctoral Research Station at the Head Office of Industrial and Commercial Bank of China (ICBC) | 中国工商银行总行博士后流动站</span> – 
+                <span class="service-position">Academic Mentor</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">Systems Engineering Society of China | 中国系统工程学会</span> – 
+                <span class="service-position">Council Member</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">SESC Financial Systems Engineering Technical Committee | 金融系统工程专业委员会</span> – 
+                <span class="service-position">Deputy Director</span>
+            </div>
+            <div class="service-item">
+                <span class="service-name">China Banking Research Center | 中国银行业研究中心</span> – 
+                <span class="service-position">Deputy Director</span>
+            </div>
+        </div>
+    </div>  
+
+    
 
     <script src="js/script.js"></script>
 </body>

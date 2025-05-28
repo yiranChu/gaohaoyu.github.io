@@ -6,6 +6,75 @@
     <title>Haoyu Gao - Awards & Grants</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            margin-top: 40px;
+        }
+        .awards-category {
+            margin-bottom: 30px;
+        }
+        .category-title {
+            font-size: 20px;
+            color: #2980b9;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .award-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            position: relative;
+            line-height: 1.6;
+        }
+        .award-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .award-name {
+            font-weight: 600;
+            color: #34495e;
+        }
+        .award-conference {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .grant-item {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .grant-title {
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 5px;
+        }
+        .grant-details {
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        .grant-period {
+            color: #16a085;
+            font-style: italic;
+        }
+        .chinese-translation {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.95em;
+        }
+    </style>
 </head>
 <body>
     <header id="main-header">
@@ -26,71 +95,54 @@
                         </div>
                     </li>
                     <li><a href="teaching.html">Teaching & Services</a></li>
-                    <li><a href="presentations.html">Presentations</a></li>
+                    <!-- <li><a href="presentations.html">Presentations</a></li> -->
                     <li><a href="awards.html" class="active">Awards & Grants</a></li>
-                    <li><a href="cv.html">CV</a></li>
+                    <!-- <li><a href="cv.html">CV</a></li> -->
                 </ul>
             </nav>
         </div>
     </header>
-    <!--
-    <main class="main-container">
-        <section class="awards-section">
-            <h2>Awards & Honors</h2>
-            
-            <article>
-                <h3>2023</h3>
-                <ul class="awards-list">
-                    <li>
-                        <strong>Best Paper Award</strong>
-                        <p>China Finance Review International Conference</p>
-                        <p>For "Monetary Stimulus amidst the Infrastructure Investment Spree"</p>
-                    </li>
-                </ul>
-            </article>
-            
-            <article>
-                <h3>2022</h3>
-                <ul class="awards-list">
-                    <li>
-                        <strong>Outstanding Researcher Award</strong>
-                        <p>Renmin University of China</p>
-                    </li>
-                    <li>
-                        <strong>Best Referee Award</strong>
-                        <p>Journal of Financial Economics</p>
-                    </li>
-                </ul>
-            </article>
-        </section>
 
-        <section class="grants-section">
-            <h2>Research Grants</h2>
-            
-            <article>
-                <h3>Active Grants</h3>
-                <ul class="grants-list">
-                    <li>
-                        <strong>National Natural Science Foundation of China (General Program)</strong>
-                        <p>"Financial Stability and Macroprudential Regulation in China" (2023-2026)</p>
-                        <p>Amount: ¥1,200,000</p>
-                    </li>
-                </ul>
-            </article>
-            
-            <article>
-                <h3>Completed Grants</h3>
-                <ul class="grants-list">
-                    <li>
-                        <strong>Ministry of Education Humanities and Social Sciences Project</strong>
-                        <p>"Credit Allocation and Economic Growth" (2020-2022)</p>
-                        <p>Amount: ¥500,000</p>
-                    </li>
-                </ul>
-            </article>
-        </section>
-    </main>
-    -->
+    <div class="content-section">
+        <h2 class="section-title">Honors & Awards</h2>
+        
+        <div class="awards-category">
+            <div class="award-item">
+                <span class="award-name">Outstanding Bachelor's Thesis (Dissertation) Supervisor in Beijing Municipal Ordinary Universities</span>
+                <div class="chinese-translation">北京市普通高校优秀本科毕业设计（论文）指导教师</div>
+            </div>
+            <div class="award-item">
+                <span class="award-name">Yuzhang Wu Distinguished Professor at Renmin University of China</span>
+                <div class="chinese-translation">中国人民大学吴玉章特聘教授</div>
+            </div>
+            <div class="award-item">
+                <span class="award-name">Outstanding Thesis Supervision Award at the Graduate Paper Competition of the Central University of Finance and Economics</span>
+                <div class="chinese-translation">中央财经大学研究生论文大赛优秀指导教师奖</div>
+            </div>
+            <div class="award-item">
+                <span class="award-name">Best Paper at the 30th Asian Finance Association Annual Conference</span>
+                <span class="award-conference">2018, Tokyo</span>
+            </div>
+            <div class="award-item">
+                <span class="award-name">Best Paper at the 12th Asia-Pacific Financial Markets International Conference</span>
+                <span class="award-conference">2017, Seoul</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">Grants & Scholarships</h2>
+        
+        <div class="grant-item">
+            <div class="grant-title">Recipient of the National Science Foundation for Distinguished Young Scholars of China (NSFC.72322015)</div>
+            <div class="grant-period">2024 - 2026</div>
+            <div class="chinese-translation">主持国家自然科学基金优秀青年基金项目（批准号：72322015）</div>
+        </div>
+        
+        <div class="grant-item">
+            <div class="grant-title">Recipient of the General Program of the National Natural Science Foundation of China (NSFC.72273146)</div>
+            <div class="grant-period">2022 - 2026</div>
+            <div class="chinese-translation">主持国家自然科学基金面上项目（批准号：72273146）</div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
